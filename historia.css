@@ -1,0 +1,149 @@
+body{
+  background-color:#EEE8AA;
+}
+h1{
+  font-family: 'Agency FB';
+  font-size: 500%;
+  color: white;
+  text-shadow: 3px 2px black;
+  letter-spacing: 7px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#FFA500;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  display: flex;
+  text-shadow: 1px 1px black;
+
+}
+ul li{
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-family: 'Agency FB';
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+ul li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  width: 96%
+}
+ul a{
+  text-decoration: none;
+}
+ul li a:hover{
+  background-color: white;
+  color:#FF4500;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+header{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+}
+#primeiro_manga{
+  text-align: justify;
+  float:left;
+  padding: 3%;
+  width: 94%;
+  margin-right: 0%;
+  margin-bottom: 3%;
+  margin-top: 6%;
+  font-size: 90%;
+}
+#primeiro_manga_shippuden{
+  text-align: justify;
+  float:left;
+  padding: 3%;
+  width: 96%;
+  margin-right: 0%;
+  margin-bottom: 3%;
+  font-size: 80%;
+}
+.holder {
+    display: flex;
+    justify-content: center;
+}
+#familia_naruto {
+  width: 550px;
+  margin: 10px;
+  float:left;
+  
+}
+#protagonista{
+  width: 550px;
+  bottom: 40px;
+  float:right;
+}
+#primeiro_manga, #primeiro_manga_shippuden{
+  font-family: 'Agency FB';
+  padding: 2%;
+  color: black;
+  height: 30%;
+  font-size: 90%;
+}
+#primeiro_manga h3, #primeiro_manga_shippuden h3{
+  font-family: 'Agency FB';
+  text-align: center;
+  font-size: 120%;
+  color: black;
+}
+#primeiro_manga p, #primeiro_manga_shippuden p{
+  color: black;
+  text-indent: 0px;
+  font-family: arial;
+  line-height: 15px;
+}
+#primeiro_manga img, #primeiro_manga_shippuden  img{
+  width: 50%;
+  float: right;
+  margin:1%;
+  border: #D3D3D3 solid;
+}
+#texto {
+  width: 95%;
+  float: left;
+  align-items: center;
+  margin: 4%;
+}
+h2{
+  color:white;
+  font-family: 'Agency FB';
+  font-weight: bold;
+  font-size: 200%;
+  align-items: center;
+  display: flex;
+  text-shadow: 2px 1px black;
+}
+#texto p{
+ color: black;
+ text-indent: 20px;
+ font-family: arial;
+ line-height: 200%;
+ text-align: justify;
+}
+footer{
+  text-align: center;
+  padding: 1%;
+  font-size: 120%;
+  background-color:#FFA500;
+  color:black;
+  clear: both;
+  font-family: 'Agency FB';
+}
